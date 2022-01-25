@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Online Store</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Nunito&family=Questrial&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../fonts/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/cart.css">
+
+</head>
+
+<body>
+  <!--Start preload animation-->
+  <div class="preload">
+    <div class="animation">
+      <!--this animation from lottiefiles.com-->
+      <img src="../images/animation_300_kgnn1i7y.gif" alt="loading">
+    </div>
+  </div>
+  <!--End preload animation-->
+  <!--Start Side bar-->
+  <div class="side-bar d-md-none ">
+    <div class="top-header">
+      <span id="close-btn"><i class="fas fa-times"></i></span>
+      Winkel
+    </div>
+    <div class="main-services">
+      <h5>Main Services</h5>
+      <ul>
+        <li>
+          <i class="fas fa-user"></i>
+          <a href="#">
+            Sign in
+          </a>
+        </li>
+        <li>
+          <i class="fas fa-user"></i>
+          <a href="#">
+            Register
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fab fa-blogger-b"></i>
+            Blog
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-heart"></i>
+            Wishlist (0)
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fas fa-question-circle"></i>
+            About us
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="categories">
+      <h5>Categories</h5>
+      <ul>
+        <li>
+          <a href="#">All Categories</a>
+        </li>
+        <li>
+          <a href="#">Supermarket</a>
+        </li>
+        <li>
+          <a href="#">Mobiles & Tablets</a>
+        </li>
+        <li>
+          <a href="#">TVs</a>
+        </li>
+        <li>
+          <a href="#">Electronics</a>
+        </li>
+        <li>
+          <a href="#">Home & Kitchen</a>
+        </li>
+        <li>
+          <a href="#">Appliances</a>
+        </li>
+        <li>
+          <a href="#">Health & Beauty</a>
+        </li>
+        <li>
+          <a href="#">Babies</a>
+        </li>
+        <li>
+          <a href="#">Toys</a>
+        </li>
+        <li>
+          <a href="#">Sports</a>
+        </li>
+        <li>
+          <a href="#">Automotive</a>
+        </li>
+        <li>
+          <a href="#">Office</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!--End Side bar-->
+
+  <!--Start Header-->
+  <header>
+    <!--Start Top bar-->
+    <nav class="top-bar d-md-block d-none">
+      <div class="container">
+        <div class="row justify-content-between text-center align-items-center">
+          <div class="welcome-message col-xl-auto col-12">
+            <span>Welcome to Winkel!</span>
+          </div>
+          <div class="nav-list col-xl-auto col-12">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fas fa-heart"></i>
+                  Wishlist (0)
+                </a>
+              </li>
+
+              <li>
+                <a href="#">
+                  <i class="fab fa-blogger-b"></i>
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fas fa-question-circle"></i>
+                  About us
+                </a>
+              </li>
+              <li>
+                <i class="fas fa-user"></i>
+                <a href="#">
+                  Sign in
+                </a>
+                <span> OR </span>
+                <a href="#">
+                  Register
+                </a>
+              </li>
+              <li>
+                <img src="https://www.flaticon.com/svg/static/icons/svg/330/330527.svg" alt="flag">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--End Top bar-->
+
+    <!--Start main header-->
+    <div class="main-header">
+      <div class="container">
+        <div class="row justify-content-between text-center align-items-center">
+
+          <div class="brand order-1 text-left col-md-2 col-6">
+            <p>
+              <span class="d-md-none mr-2" id="open-btn"><i class="fas fa-bars"></i></span>
+              <span class="brand-name">
+                <a href="index.html">Win<span>kel</span></a>
+              </span>
+            </p>
+          </div>
+          <!--give it order and margin when resizing-->
+          <div class="search order-3 order-md-2 col-md-8 col-12 mt-md-0 mt-4">
+
+            <form action="" method="">
+              <div class="row">
+                <i class="fas fa-search"></i>
+                <input type="text" class="form-control col" name="search" placeholder="Search for products"
+                  autocomplete="off">
+                <input type="submit" class="btn btn-warning col-md-2 col-sm-3 col-4" value="Search">
+              </div>
+            </form>
+          </div>
+          <div class="cart order-2 order-md-3 text-right col-md-2 col-6">
+            <a href="./cart.html">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--End main header-->
+
+    <!--Start Nav Categories-->
+    <nav class="nav-menu text-center d-md-block d-none">
+      <div class="container">
+        <ul>
+          <li>
+            <a href="#">All Categories</a>
+          </li>
+          <li>
+            <a href="#">Supermarket</a>
+          </li>
+          <li>
+            <a href="#">Mobiles & Tablets</a>
+          </li>
+          <li>
+            <a href="#">TVs</a>
+          </li>
+          <li>
+            <a href="#">Electronics</a>
+          </li>
+          <li>
+            <a href="#">Home & Kitchen</a>
+          </li>
+          <li>
+            <a href="#">Appliances</a>
+          </li>
+          <li>
+            <a href="#">Health & Beauty</a>
+          </li>
+          <li>
+            <a href="#">Babies</a>
+          </li>
+          <li>
+            <a href="#">Toys</a>
+          </li>
+          <li>
+            <a href="#">Sports</a>
+          </li>
+          <li>
+            <a href="#">Automotive</a>
+          </li>
+          <li>
+            <a href="#">Office</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--End Nav Categories-->
+  </header>
+  <!--End Header-->
+
+  <!--Start shopping cart-->
+  <section class="shopping-cart">
+    <div class="container">
+      <div class="row justify-content-between">
+        <!--Start cart items container-->
+        <div class="cart-items col-lg-8 col-12 order-lg-1 order-2">
+          <h4>Shopping Cart</h4>
+          <!--cart item 1-->
+          <div class="cart-item">
+            <div class="row justify-content-md-between justify-content-start">
+              <div class="item-image col-md-2 col-4">
+                <img src="https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/09/002151/1.jpg?4789"
+                  alt="item">
+              </div>
+              <div class="details col-md-5 col-8">
+                <div class="name">
+                  Sony PlayStation 4 Slim - 1TB Gaming Console - Black + Pro Evolution Soccer PES 2020 - Arabic Version
+                </div>
+                <div class="price">
+                  <span class="current-price">$6779.00</span>
+                  <span class="previous-price">$10000.00</span>
+                  <span class="percentage">-32&percnt;</span>
+                </div>
+              </div>
+              <div class="operations col-md-5 col-12 mt-5 mt-md-0">
+                <div class="row justify-content-between">
+                  <div class="quantity col-md col-3">
+                    <form action="">
+                      <input type="number" class="form-control" value="2">
+                    </form>
+                  </div>
+                  <div class="total-price text-center text-md-left col-md col-4 ">$13558.00</div>
+                  <div class="remove-item col-md-2 col-2">
+                    <i class="fas fa-trash"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-warning mt-4 mb-4">Continue Shopping</a>
+        </div>
+        <!--End cart items container-->
+        <!--Start cart summary-->
+        <div class="cart-summary align-self-start col-lg-3 col-12 order-lg-2 order-1">
+          <div class="cart-summary-container  pl-3 pr-3  pl-lg-0 pr-lg-0  pl-xl-3 pr-xl-3">
+            <div class="cart-subtotal-products">
+              <div class="row justify-content-between">
+                <span>9 Items</span>
+                <span class="font-weight-bold">$18250.00</span>
+              </div>
+            </div>
+            <div class="cart-subtotal-shipping">
+              <div class="row justify-content-between">
+                <span>Shipping</span>
+                <span class="font-weight-bold">$7.00</span>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="cart-summary-container  pl-3 pr-3  pl-lg-0 pr-lg-0  pl-xl-3 pr-xl-3">
+            <div class="cart-total">
+              <div class="row justify-content-between">
+                <span>Total (Tax Excl.)</span>
+                <span class="font-weight-bold">$18257.00</span>
+              </div>
+            </div>
+            <div class="cart-taxes">
+              <div class="row justify-content-between">
+                <span>Taxes</span>
+                <span class="font-weight-bold">$0.00</span>
+              </div>
+            </div>
+          </div>
+          <hr>
+          <div class="checkout">
+            <button class="btn btn-warning btn-block">Proceed to checkout</button>
+          </div>
+        </div>
+        <!--End cart summary-->
+      </div>
+    </div>
+  </section>
+  <!--End shopping cart-->
+
+  <!--Start Footer-->
+  <footer>
+    <div class="container">
+      <div class="row text-md-left text-center">
+        <!--Start popular searches-->
+        <div class="popular-searches col-md-4 col-12">
+          <h6>POPULAR SEARCHES</h6>
+          <ul>
+            <li>
+              <a href="#">All Categories</a>
+            </li>
+            <li>
+              <a href="#">Supermarket</a>
+            </li>
+            <li>
+              <a href="#">Mobiles & Tablets</a>
+            </li>
+            <li>
+              <a href="#">TVs</a>
+            </li>
+            <li>
+              <a href="#">Electronics</a>
+            </li>
+            <li>
+              <a href="#">Home & Kitchen</a>
+            </li>
+            <li>
+              <a href="#">Appliances</a>
+            </li>
+            <li>
+              <a href="#">Health & Beauty</a>
+            </li>
+            <li>
+              <a href="#">Babies</a>
+            </li>
+            <li>
+              <a href="#">Toys</a>
+            </li>
+            <li>
+              <a href="#">Sports</a>
+            </li>
+            <li>
+              <a href="#">Automotive</a>
+            </li>
+            <li>
+              <a href="#">Office</a>
+            </li>
+          </ul>
+        </div>
+        <!--End popular searches-->
+
+        <!--Start my account-->
+        <div class="my-account col-md-4 col-12 mt-5 mb-5 mt-md-0 mb-md-0">
+          <h6>MY ACCOUNT</h6>
+          <ul>
+            <li>
+              <a href="#">Log In / Register</a>
+            </li>
+            <li>
+              <a href="#">My Shopping Cart</a>
+            </li>
+            <li>
+              <a href="#">My Orders</a>
+            </li>
+            <li>
+              <a href="#">My Addresses</a>
+            </li>
+            <li>
+              <a href="#">Wish Lists</a>
+            </li>
+          </ul>
+        </div>
+        <!--End my account-->
+
+        <!--Start Selling here-->
+        <div class="sell-here col-md-4 col-12">
+          <h6>SELLING ON ONLINE STORE</h6>
+          <ul>
+            <li>
+              <a href="#">Sell on souq.com</a>
+            </li>
+            <li>
+              <a href="#">How It Works</a>
+            </li>
+            <li>
+              <a href="#">Selling Policies</a>
+            </li>
+            <li>
+              <a href="#">Seller Terms and Conditions</a>
+            </li>
+            <li>
+              <a href="#">FAQs</a>
+            </li>
+          </ul>
+        </div>
+        <!--End Selling here-->
+      </div>
+
+      <div class="row justify-content-center sites-div">
+        <div class="sites-media">
+          <ul>
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="terms">
+          <ul>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Privacy Policy</i></a></li>
+            <li><a href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer-->
+
+  <!------------------------------------------------------JavaScript------------------------------------------------------>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+  <script src="../js/index.js"></script>
+  <script src="../js/cart.js"></script>
+</body>
+
+</html>
