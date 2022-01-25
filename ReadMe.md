@@ -1,3 +1,5 @@
 # Winkel shop
 
-### An Ecommerce Template using HTML / CSS / Vanilla JavaScript / Bootstrap
+### An Ecommerce Template 
+#### Technologies used: HTML / CSS / Vanilla JavaScript / Bootstrap
+
